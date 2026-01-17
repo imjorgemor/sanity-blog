@@ -145,7 +145,7 @@ export type Page = {
   _updatedAt: string;
   _rev: string;
   title?: string;
-  slug?: Slug;
+  url?: Slug;
   content?: PageBuilder;
   mainImage?: {
     asset?: {
@@ -481,7 +481,7 @@ export type PAGE_QUERYResult = {
   _updatedAt: string;
   _rev: string;
   title?: string;
-  slug?: Slug;
+  url?: Slug;
   content: Array<{
     _key: string;
     _type: "faqs";
@@ -565,7 +565,7 @@ export type HOME_PAGE_QUERYResult = {
     _updatedAt: string;
     _rev: string;
     title?: string;
-    slug?: Slug;
+    url?: Slug;
     content: Array<{
       _key: string;
       _type: "faqs";

@@ -830,7 +830,7 @@
         },
         "optional": true
       },
-      "slug": {
+      "url": {
         "type": "objectAttribute",
         "value": {
           "type": "inline",

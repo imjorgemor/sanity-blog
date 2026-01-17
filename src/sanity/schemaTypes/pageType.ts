@@ -12,7 +12,7 @@ export const pageType = defineType({
       type: "string",
     }),
     defineField({
-      name: "slug",
+      name: "url",
       type: "slug",
       options: {
         source: "title",
